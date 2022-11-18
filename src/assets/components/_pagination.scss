@@ -1,0 +1,19 @@
+.pagination_wrapper{
+    border: none;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: Transparent;
+}
+
+.pagination {
+    display: flex;
+    gap: 0.31rem;
+    color: #2e82ce;
+    font-weight: 500;
+    cursor: pointer;
+    align-items: center;
+
+    &:hover {
+        border-bottom: 0.08rem solid #2e82ce;
+    }
+}

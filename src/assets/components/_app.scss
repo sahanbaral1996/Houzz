@@ -1,0 +1,28 @@
+.app_wrapper{
+box-sizing: border-box;
+    display: flex;
+    flex-flow: column nowrap;
+    font-family: "proxima nova", "Roboto", sans-serif;
+    scroll-behavior: smooth;
+}
+
+h1 {
+    margin-left: 10px;
+    color: #6f6f6f;
+}
+
+* {
+    margin: 0 auto;
+}
+
+body,
+html {
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+@media(min-width: 1000px){
+    .app_wrapper{
+        max-width: 1200px;
+    }
+}
+    

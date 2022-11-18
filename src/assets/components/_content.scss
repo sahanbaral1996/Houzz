@@ -1,0 +1,41 @@
+.content_wrapper{
+    width: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: end;
+        align-items: flex-start;
+        align-self: center;
+}
+.title_wrapper{
+    display: flex;
+    margin-top:1rem;
+    margin-left:0
+}
+.content_title {
+    font-size: 1.25rem;
+    color: #6c6c6c;
+    font-weight: 500;
+    margin-left: 1rem;
+    background-color: white;
+    border:none;
+}
+
+.content_title:hover{
+    border-bottom: 2px solid blue;
+    cursor: pointer;
+}
+
+.add_beer_title {
+background-color: blue;
+color: white;
+font-size: 0.75rem;
+margin-left: 1rem;
+font-weight: 300;
+border-radius: 2px;
+border-style: none;
+}
+
+.card_wrapper {
+    display: flex;
+    flex-flow: row wrap;
+}
